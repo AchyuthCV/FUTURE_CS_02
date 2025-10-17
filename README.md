@@ -1,36 +1,30 @@
 # Security Alert Monitoring & Incident Response
-**Internship Project – Cybersecurity | Future Interns**  
+**Internship Project – Cybersecurity | Future Interns**
+
 **Intern:** Achyuth C.V
 
----
+## Overview
+This project demonstrates monitoring and incident response using **Splunk Enterprise**. Sample system logs were ingested, analyzed, and suspicious activities were identified. The repo contains the report and supporting screenshots.
 
-## 1. Introduction
-In the evolving landscape of cybersecurity, Security Information and Event Management (SIEM) tools are indispensable for identifying, monitoring, and responding to security threats. This project demonstrates monitoring of simulated security alerts using **Splunk Enterprise**.
+## Tools & Environment
+- **Operating System:** Windows 10
+- **SIEM Tool:** Splunk Enterprise (Free Trial)
+- **Browser:** Google Chrome
+- **Logs:** Simulated system security logs (authentication, connection attempts, malware alerts)
 
-Tasks included:
-- Uploading and analyzing sample log files
-- Identifying potential suspicious activities
-- Classifying incidents by severity
-- Documenting findings and remediation steps
+## Project Structure
+FUTURE_CS_02/
+│
+├─ Report_AchyuthCV.pdf # Detailed project report
+├─ Screenshots.pdf # Screenshots of Splunk dashboard and analysis
+└─ README.md # Project overview
 
----
+## Highlights
+- Uploaded and indexed sample logs in Splunk
+- Structured events using field extraction and table views
+- Identified security incidents: malware, ransomware, failed logins, and reconnaissance attempts
+- Classified incidents by severity and suggested remediation steps
 
-## 2. Tools & Environment
-**OS:** Windows 10  
-**Tool:** Splunk Enterprise (Free Trial)  
-**Browser:** Google Chrome  
-**Log Type:** Simulated System Security Logs (Authentication, Connection, Malware Alerts)
-
-Setup Steps:
-1. Downloaded Splunk from the official website.
-2. Installed Splunk and accessed via `http://127.0.0.1:8000`.
-3. Set up login credentials and accessed the main dashboard.
-
----
-
-## 3. Uploaded Log Files
-- File used: `SOC_Task2_Sample_Logs.txt`
-- Uploaded using **Add Data** feature in Splunk.
-- Contains failed logins, malware detections, network attempts.
-
-
+## Instructions
+1. Open `Report_AchyuthCV.pdf` for detailed project workflow.
+2. Open `Screenshots.pdf` to see Splunk dashboards and visualizations.
